@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    color:rgb(255, 255, 255);
+  }
+  
+  body {
+  height: 89vh;
+  align-items: center;
+  background-image:url(https://csmia.adaniairports.com/images/traveller-banner05.jpg);
+  
+  }
+  .nav{
+   /* background-color: rgb(4, 6, 161);  */
+    color: white;
+    position: fixed;  
+    left: 0;   
+    right: 0;  
+    top: 5px;  
+    height: 40px;  
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;  
+    align-items: center; 
+    justify-content: center; 
+    box-shadow: 0 0 25px 0 rgb(243, 243, 243);  
+  }
+  #first1,#email1,#formFile,#no1 {
+  border: 2px solid blueviolet;
+    border-radius: 3px;
+   
+}
+  .container{
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 2%;
+  
+  }
+  
+  .row{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+ 
+  div.sec-form, div.sec-user{
+    justify-content: center ;
+    background: rgb(0 0 0 / 46%);
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  
+  div.sec-form h1, div.sec-user h1{
+    padding-top: 3%;
+    text-align: center;
+  }
+  
+  div .gender{
+    margin-right: 2%;
+  }
+  
+  div .check2{
+    display: flex;
+  }
+  
+  div .check1{
+    display: flex;
+  }
+  
+  .btn2{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    font-weight: bolder;
+  }
+
+
+  .card-body p, .card-body h5{
+    color: #000 ;
+    border-radius: 2px;
+    
+  }
+
+    .card1 {
+      margin-top: 0px;
+     align-content: center;
+     width: 300px;
+     margin: 0 auto;
+     
+  }
+ 
+  .card1:hover{
+    box-shadow: rgba(240, 233, 233, 0.8) 0px 2px 8px 0px;
+  }
+  
+  button.btn.btn-primary.col-12.col-sm-9.enroll1 {
+    color: #fff;
+    background-color: #0c3066;
+    border-color: #0d6efd;
+    width: 70px;
+}
+button.btn.btn-danger.col-8.col-sm-2.clear1 {
+  color: #fff;
+  background-color: #233d86;
+  border-color: #f4d2d6;
+}
